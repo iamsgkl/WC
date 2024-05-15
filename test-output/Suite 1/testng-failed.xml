@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite 1]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="Test 2(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="beCognizant.worldClock.WorldClock">
+        <methods>
+          <include name="beCognizantPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="oneCognizantPage"/>
+        </methods>
+      </class> <!-- beCognizant.worldClock.WorldClock -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

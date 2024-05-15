@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T12:46:22 IST" name="World Clock Suite" finished-at="2024-05-13T12:50:42 IST" duration-ms="260132">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T12:46:22 IST" name="Test 1 : Chrome Tests" finished-at="2024-05-13T12:48:17 IST" duration-ms="114518">
+      <class name="testBase.BaseClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testBase.BaseClass@702657cc]" started-at="2024-05-13T12:46:22 IST" name="setup" finished-at="2024-05-13T12:46:36 IST" duration-ms="13185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="beCognizant(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.BaseClass@702657cc]" started-at="2024-05-13T12:46:36 IST" name="beCognizant" data-provider="testData" finished-at="2024-05-13T12:47:32 IST" duration-ms="56272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12:46pm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8:16am]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4h30mbehind]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3:16am]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9h30mbehind]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12:47pm]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[8:17am]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3:17am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beCognizant -->
+        <test-method signature="oneCognizant()[pri:1, instance:testBase.BaseClass@702657cc]" started-at="2024-05-13T12:47:32 IST" name="oneCognizant" finished-at="2024-05-13T12:48:05 IST" duration-ms="33041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizant -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.BaseClass@702657cc]" started-at="2024-05-13T12:48:05 IST" name="tearDown" finished-at="2024-05-13T12:48:17 IST" duration-ms="11318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.BaseClass -->
+    </test> <!-- Test 1 : Chrome Tests -->
+    <test started-at="2024-05-13T12:48:18 IST" name="Test 2 : Firefox Tests" finished-at="2024-05-13T12:48:46 IST" duration-ms="27933">
+      <class name="testBase.BaseClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testBase.BaseClass@1c1bbc4e]" started-at="2024-05-13T12:48:18 IST" name="setup" finished-at="2024-05-13T12:48:28 IST" duration-ms="10740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="beCognizant(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.BaseClass@1c1bbc4e]" started-at="2024-05-13T12:48:28 IST" name="beCognizant" data-provider="testData" finished-at="2024-05-13T12:48:46 IST" duration-ms="17137" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12:48pm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8:18am]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4h30mbehind]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3:18am]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9h30mbehind]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12:49pm]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[8:19am]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3:19am]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, findElement {using=id, value=O365_HeaderRightRegion}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, findElement {using=id, value=O365_HeaderRightRegion}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at pageObjects.BeCognizant.beCognizantPage(BeCognizant.java:28)
+at testBase.BaseClass.beCognizant(BaseClass.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beCognizant -->
+        <test-method signature="oneCognizant()[pri:1, instance:testBase.BaseClass@1c1bbc4e]" started-at="2024-05-13T12:48:46 IST" name="oneCognizant" finished-at="2024-05-13T12:48:46 IST" duration-ms="3" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:456)
+at pageObjects.OneCognizant.oneCognizantPage(OneCognizant.java:15)
+at testBase.BaseClass.oneCognizant(BaseClass.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizant -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.BaseClass@1c1bbc4e]" started-at="2024-05-13T12:48:46 IST" name="tearDown" finished-at="2024-05-13T12:48:46 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[JdkWebSocket initial request execution error
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:250)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:87)
+at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:335)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:427)
+at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
+at testBase.BaseClass.tearDown(BaseClass.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.afterRun(TestRunner.java:904)
+at org.testng.TestRunner.run(TestRunner.java:622)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.BaseClass -->
+    </test> <!-- Test 2 : Firefox Tests -->
+    <test started-at="2024-05-13T12:48:46 IST" name="Test 3 : Edge Tests" finished-at="2024-05-13T12:50:42 IST" duration-ms="116373">
+      <class name="testBase.BaseClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testBase.BaseClass@1ce24091]" started-at="2024-05-13T12:48:46 IST" name="setup" finished-at="2024-05-13T12:48:56 IST" duration-ms="10033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="beCognizant(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.BaseClass@1ce24091]" started-at="2024-05-13T12:48:56 IST" name="beCognizant" data-provider="testData" finished-at="2024-05-13T12:49:45 IST" duration-ms="48860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12:48pm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8:18am]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4h30mbehind]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3:18am]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5/13/2024]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9h30mbehind]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12:49pm]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[8:19am]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3:19am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beCognizant -->
+        <test-method signature="oneCognizant()[pri:1, instance:testBase.BaseClass@1ce24091]" started-at="2024-05-13T12:49:45 IST" name="oneCognizant" finished-at="2024-05-13T12:50:17 IST" duration-ms="32710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizant -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.BaseClass@1ce24091]" started-at="2024-05-13T12:50:17 IST" name="tearDown" finished-at="2024-05-13T12:50:42 IST" duration-ms="24737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:testBase.BaseClass@1ce24091]" started-at="2024-05-13T12:50:42 IST" name="reports" finished-at="2024-05-13T12:50:43 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+      </class> <!-- testBase.BaseClass -->
+    </test> <!-- Test 3 : Edge Tests -->
+  </suite> <!-- World Clock Suite -->
+</testng-results>

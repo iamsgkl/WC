@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">World Clock Suite</th></tr>
+<tr><td><a href="#t0">Test 1 : Chrome Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">114,518</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test 2 : Firefox Tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">27,933</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test 3 : Edge Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">116,373</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">258,824</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">World Clock Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 : Chrome Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testBase.BaseClass</td><td><a href="#m0">beCognizant</a></td><td rowspan="1">1715584596312</td><td rowspan="1">56272</td></tr><tr class="passedeven"><td><a href="#m1">oneCognizant</a></td><td rowspan="1">1715584652669</td><td rowspan="1">33041</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test 2 : Firefox Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testBase.BaseClass</td><td><a href="#m2">tearDown</a></td><td rowspan="1">1715584726032</td><td rowspan="1">16</td></tr><tr><th colspan="4">Test 2 : Firefox Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testBase.BaseClass</td><td><a href="#m3">beCognizant</a></td><td rowspan="1">1715584708887</td><td rowspan="1">17137</td></tr><tr class="failedeven"><td><a href="#m4">oneCognizant</a></td><td rowspan="1">1715584726027</td><td rowspan="1">3</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test 3 : Edge Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testBase.BaseClass</td><td><a href="#m5">beCognizant</a></td><td rowspan="1">1715584736333</td><td rowspan="1">48860</td></tr><tr class="passedeven"><td><a href="#m6">oneCognizant</a></td><td rowspan="1">1715584785197</td><td rowspan="1">32710</td></tr></tbody>
+</table>
+<h2>Test 1 : Chrome Tests</h2><h3 id="m0">testBase.BaseClass#beCognizant</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx</td><td>12:46pm</td><td>5/13/2024</td><td>8:16am</td><td>5/13/2024</td><td>4h30mbehind</td><td>3:16am</td><td>5/13/2024</td><td>9h30mbehind</td><td>12:47pm</td><td>8:17am</td><td>3:17am</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testBase.BaseClass#oneCognizant</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test 2 : Firefox Tests</h2><h3 id="m2">testBase.BaseClass#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:250)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:87)
+	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:335)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:427)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
+	at testBase.BaseClass.tearDown(BaseClass.java:127)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testBase.BaseClass#beCognizant</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx</td><td>12:48pm</td><td>5/13/2024</td><td>8:18am</td><td>5/13/2024</td><td>4h30mbehind</td><td>3:18am</td><td>5/13/2024</td><td>9h30mbehind</td><td>12:49pm</td><td>8:19am</td><td>3:19am</td></tr><tr><th colspan="12">Exception</th></tr><tr><td colspan="12"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, findElement {using=id, value=O365_HeaderRightRegion}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at pageObjects.BeCognizant.beCognizantPage(BeCognizant.java:28)
+	at testBase.BaseClass.beCognizant(BaseClass.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testBase.BaseClass#oneCognizant</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53e134a5-82b8-4514-b927-184f3c9fcb21, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:39738, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23660, moz:profile: C:\Users\2317566\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53e134a5-82b8-4514-b927-184f3c9fcb21
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:456)
+	at pageObjects.OneCognizant.oneCognizantPage(OneCognizant.java:15)
+	at testBase.BaseClass.oneCognizant(BaseClass.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test 3 : Edge Tests</h2><h3 id="m5">testBase.BaseClass#beCognizant</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx</td><td>12:48pm</td><td>5/13/2024</td><td>8:18am</td><td>5/13/2024</td><td>4h30mbehind</td><td>3:18am</td><td>5/13/2024</td><td>9h30mbehind</td><td>12:49pm</td><td>8:19am</td><td>3:19am</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testBase.BaseClass#oneCognizant</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
